@@ -10,9 +10,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Playfair+Display:400,700,400italic,700italic|Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic|Lato:300,400,700,300italic,400italic,700italic&amp;subset=latin,latin-ext" as="style">  
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#forScroll" data-bs-offset="0" class="scrollspy-example" tabindex="0">
     <div class="container">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+        <nav id="forScroll" class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
           <div class="container">
             <div class="d-flex">
               <img class="logo" src="images/logo.png" alt="Logo">
@@ -23,117 +23,120 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
               <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">App</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Learn More</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Connect</a></li>
+                <li class="nav-item"><a href="#app" class="nav-link" aria-current="page">App</a></li>
+                <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+                <li class="nav-item"><a href="#learnMore" class="nav-link">Learn More</a></li>
+                <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#connect" class="nav-link">Connect</a></li>
               </ul>
             </div>
           </div>
         </nav>
     </div>
-    <div class="container-fluid main-bg">
-      <!-- Main -->
-      <div class="vh-100">
-        <div class="h-50" >
-        </div>
-     </div>
-    </div>
-    <div class="container my-5 about"> 
-      <div class="row">
-        <h2 class="text-center"><b>About the team.</b></h2>
-      </div>
-      <div class="row about-border">
-        <p class="text-center">We've put together the best team that we could find to give you the best experience possible on Salaam Swipe. Our team comes from all over the world and we're committed to our mission of changing the way we meet one another.</p>
-      </div>
-    </div>
-
-    <div class="container my-5 LearnMore"> 
-      <div class="row text-center mb-4">
-        <h2 class="mb-3">Want to Learn More?</h2>
-        <p>Take a look at the articles written about us</p>
-      </div>
-      <div class="row LearnMore-border">
-        <div class="col">
-          <div class="text-center">
-            <img src="images/Motherboard.png" class="mb-3 rounded-circle" alt="Motherboard post image">
-            <h3><a href="http://motherboard.vice.com/read/of-course-theres-plans-for-a-muslim-tinder-too" target="_blank">Vice Motherboard</a></h3>
+    <div >
+      <div class="container-fluid main-bg" id="app">
+        <!-- Main -->
+        <div class="vh-100">
+          <div class="h-50" >
           </div>
-          <p class="LearnMore_text">"Salaam Swipe will allow young Muslims to reach out to potential mates without interference"</p>
+      </div>
+      </div>
+      
+      <div class="container my-5 about" id="team"> 
+        <div class="row">
+          <h2 class="text-center"><b>About the team.</b></h2>
         </div>
-        <div class="col">
-          <div class="text-center">
-            <img src="images/buzzfeed.png" class="mb-3 rounded-circle" alt="BuzzFeed post image">
-            <h3>BuzzFeed</h3>
-          </div>
-          <p class="LearnMore_text text-center">“I’m only using technology to take the biodata and put it in your hands instead of your grandmother’s."</p>
-        </div>
-        <div class="col">
-          <div class="text-center">
-            <img src="images/sbs.png" class="mb-3 rounded-circle" alt="SBS Australia post image">
-            <h3>SBS Australia</h3>
-          </div>
-          <p class="LearnMore_text text-center">"Growing up as a Muslim in North America, I think we face a very big irony when it comes to relationships and marriage than any other community,"</p>
+        <div class="row about-border">
+          <p class="text-center">We've put together the best team that we could find to give you the best experience possible on Salaam Swipe. Our team comes from all over the world and we're committed to our mission of changing the way we meet one another.</p>
         </div>
       </div>
-    </div>
 
-    <div class="container my-5 faq"> 
-      <div class="row text-center mb-4">
-        <h2 class="mb-3">FAQs and Policies</h2>
-      </div>
-      <div class="row justify-content-center faq-border">
-        <div class="col-3">
-          <h3><a href="">Frequently Asked Questions</a></h3>
-          <p class="faq_text">August 25, 2015<br> ...</p>
+      <div class="container my-5 LearnMore" id="learnMore"> 
+        <div class="row text-center mb-4">
+          <h2 class="mb-3">Want to Learn More?</h2>
+          <p>Take a look at the articles written about us</p>
         </div>
-        <div class="col-3">
-          <h3><a href="">Terms of Use</a></h3>
-          <p class="faq_text">August 4, 2015<br> ...</p>
-        </div>
-        <div class="col-3">
-          <h3><a href="">Privacy Policy</a></h3>
-          <p class="faq_text">June 13, 2015<br> ...</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container my-5 faq"> 
-      <div class="row text-center mb-4">
-        <h2 class="mb-3">Connect With Us On:</h2>
-      </div>
-      <div class="row justify-content-center faq-border">
-        <div class="col-4 text-center">
-          <a href="http://www.facebook.com/salaamswipe" target="_blank">
-            <div>
-              <img src="images/facebook.png" class="mb-3" alt="facebook logo">
+        <div class="row LearnMore-border">
+          <div class="col">
+            <div class="text-center">
+              <img src="images/Motherboard.png" class="mb-3 rounded-circle" alt="Motherboard post image">
+              <h3><a href="http://motherboard.vice.com/read/of-course-theres-plans-for-a-muslim-tinder-too" target="_blank">Vice Motherboard</a></h3>
             </div>
-          </a>
-          <p>Facebook</p>
-        </div>
-        <div class="col-4 text-center">
-          <a href="http://www.twitter.com/salaam_swipe" target="_blank">
-            <div>
-              <img src="images/twitter.png" class="mb-3" alt="Twitter logo">
+            <p class="LearnMore_text">"Salaam Swipe will allow young Muslims to reach out to potential mates without interference"</p>
+          </div>
+          <div class="col">
+            <div class="text-center">
+              <img src="images/buzzfeed.png" class="mb-3 rounded-circle" alt="BuzzFeed post image">
+              <h3>BuzzFeed</h3>
             </div>
-          </a>
-          <p>Twitter</p>
+            <p class="LearnMore_text text-center">“I’m only using technology to take the biodata and put it in your hands instead of your grandmother’s."</p>
+          </div>
+          <div class="col">
+            <div class="text-center">
+              <img src="images/sbs.png" class="mb-3 rounded-circle" alt="SBS Australia post image">
+              <h3>SBS Australia</h3>
+            </div>
+            <p class="LearnMore_text text-center">"Growing up as a Muslim in North America, I think we face a very big irony when it comes to relationships and marriage than any other community,"</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="text-center">
-          <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FSalaamSwipe&width=90&layout=button_count&action=like&size=small&share=false&height=21&appId=247883392361655" width="90" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Salaam Swipe is the world&#39;s first matching app for #Muslims. Check it out! https://salaamswipe.mystrikingly.com/" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <div class="container my-5 faq" id="blog"> 
+        <div class="row text-center mb-4">
+          <h2 class="mb-3">FAQs and Policies</h2>
+        </div>
+        <div class="row justify-content-center faq-border">
+          <div class="col-4">
+            <h3><a href="">Frequently Asked Questions</a></h3>
+            <p class="faq_text">August 25, 2015<br> ...</p>
+          </div>
+          <div class="col-4">
+            <h3><a href="">Terms of Use</a></h3>
+            <p class="faq_text">August 4, 2015<br> ...</p>
+          </div>
+          <div class="col-4">
+            <h3><a href="">Privacy Policy</a></h3>
+            <p class="faq_text">June 13, 2015<br> ...</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container my-3"> 
-      <div class="row text-center" style="color: #50555c;">
-        <p>&copy; Salaam Swipe 2014 <br />All Rights Reserved</p>
+
+      <div class="container my-5 faq" id="connect"> 
+        <div class="row text-center mb-4">
+          <h2 class="mb-3">Connect With Us On:</h2>
+        </div>
+        <div class="row justify-content-center faq-border">
+          <div class="col-4 text-center">
+            <a href="http://www.facebook.com/salaamswipe" target="_blank">
+              <div>
+                <img src="images/facebook.png" class="mb-3" alt="facebook logo">
+              </div>
+            </a>
+            <p>Facebook</p>
+          </div>
+          <div class="col-4 text-center">
+            <a href="http://www.twitter.com/salaam_swipe" target="_blank">
+              <div>
+                <img src="images/twitter.png" class="mb-3" alt="Twitter logo">
+              </div>
+            </a>
+            <p>Twitter</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FSalaamSwipe&width=90&layout=button_count&action=like&size=small&share=false&height=21&appId=247883392361655" width="90" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Salaam Swipe is the world&#39;s first matching app for #Muslims. Check it out! https://salaamswipe.mystrikingly.com/" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+        <div class="my-3"> 
+          <div class="row text-center" style="color: #50555c;">
+            <p>&copy; Salaam Swipe 2014 <br />All Rights Reserved</p>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Footer -->
