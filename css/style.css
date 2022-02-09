@@ -32,3 +32,32 @@ header{
 .navbar-light .navbar-nav .nav-item a:hover {
     color: #ff6f22;
 }
+
+/* End-Header */
+
+/* Main */
+.main-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    opacity: 0.75;
+    background-image: url(../images/main-background.jpg);
+}
+
+/* End-Main */
+
+/* Start_About */
+.about h2{
+    color: #ff6f22;
+    font-weight: 700;
+    font-family: bitter, georgia, serif;
+}
+
+.about p{
+    line-height: 1.45;
+    word-wrap: break-word;
+    color: #333;
+    font-size: 27px;
+    font-family: "playfair display", serif;
+}
+/* End_About */
