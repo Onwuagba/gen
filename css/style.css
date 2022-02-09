@@ -104,4 +104,38 @@ body{
     padding-bottom: 40px;
     border-bottom: 1px solid rgb(206, 206, 206);
 }
-/* End_About */
+/* End_LearnMore */
+
+/* Start_FAQ */
+.faq h2{
+    color: #ff6f22;
+    font-weight: normal;
+    font-family: bitter, georgia, serif;
+}
+
+.faq h3 a{
+    color: #50555c;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: "playfair display", serif;
+    text-decoration: none;
+}
+
+.faq .faq_text{
+    font-family:  "open sans", sans-serif;
+    line-height: 1.45;
+    word-wrap: break-word;
+    color: #333;
+    font-size: 12px;
+    text-align: left;
+}
+
+.LearnMore a{
+    color: #ff6f22;
+}
+
+.faq-border{
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+/* End_FAQ */
