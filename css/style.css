@@ -17,6 +17,7 @@ body{
 
 .navbar{
     padding: 15px 0;
+    border-bottom: rgb(206, 206, 206) solid 1px;
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -57,5 +58,50 @@ body{
     color: #333;
     font-size: 27px;
     font-family: "playfair display", serif;
+}
+
+.about-text{
+    padding-bottom: 60px;
+    border-bottom: 2px solid #666;
+}
+/* End_About */
+
+/* Start_LearnMore */
+.LearnMore h2{
+    color: #ff6f22;
+    font-weight: normal;
+    font-family: bitter, georgia, serif;
+}
+
+.LearnMore h3{
+    color: #ff6f22;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: bitter, georgia, serif;
+}
+
+.LearnMore .LearnMore_text{
+    font-family:  "open sans", sans-serif;
+    line-height: 1.45;
+    word-wrap: break-word;
+    color: #50555c;
+    font-size: 16px;
+}
+
+.LearnMore a{
+    color: #ff6f22;
+}
+
+.LearnMore p{
+    line-height: 1.45;
+    word-wrap: break-word;
+    color: #333;
+    font-size: 27px;
+    font-family: "playfair display", serif;
+}
+
+.LearnMore-text{
+    padding-bottom: 60px;
+    border-bottom: 2px solid #666;
 }
 /* End_About */
