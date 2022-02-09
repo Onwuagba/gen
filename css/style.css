@@ -4,12 +4,6 @@ body{
 
 /* Header */
 
-header{
-    padding: 8px 0;
-    background-color: #fff;
-    font-family: inherit;
-}
-
 .logo{
     padding-right: 15px;
 }
@@ -19,6 +13,10 @@ header{
     font-size:14px; 
     text-align:left;
     max-width: 200px;
+}
+
+.navbar{
+    padding: 15px 0;
 }
 
 .navbar-light .navbar-nav .nav-link{
