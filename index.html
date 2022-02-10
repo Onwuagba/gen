@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Playfair+Display:400,700,400italic,700italic|Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic|Lato:300,400,700,300italic,400italic,700italic&amp;subset=latin,latin-ext" as="style">  
   </head>
-  <body data-bs-spy="scroll" data-bs-target="#forScroll" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <body data-bs-spy="scroll" data-bs-target="#forScroll" data-bs-offset="0">
     <div class="container">
         <nav id="forScroll" class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
           <div class="container">
@@ -18,10 +18,10 @@
               <img class="logo" src="images/logo.png" alt="Logo">
               <span class="logo-text">It's time to change the way we meet.</span>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div class="collapse navbar-collapse" id="navbarToggler">
               <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
                 <li class="nav-item"><a href="#app" class="nav-link" aria-current="page">App</a></li>
                 <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
@@ -36,20 +36,30 @@
     <div >
       <div class="container-fluid main-bg" id="app">
         <!-- Main -->
-        <div class="vh-100">
-          <div class="h-50" >
+        <div class="row align-items-center justify-content-center main-content">
+          <div class="col-5">
+            <img src="images/mobile_phone.webp" class="img-fluid" alt="Mobile phone image">
           </div>
-      </div>
+          <div class="col-5">
+            <h2 class="mb-3">Salaam Swipe</h2>
+            <h3>Where Muslims Match and Meet.</h3>
+            <p class="mb-5">Salaam Swipe is an interactive matching application for Muslims. We're going to revolutionize the way we meet one another.</p>
+            <a href="https://itunes.apple.com/us/app/salaam-swipe/id1019659192?mt=8&utm_source=Salaam+Swipe&utm_campaign=d3fbc921c9-Launch_8_18_2015&utm_medium=email&utm_term=0_d84300b336-d3fbc921c9-&mc_cid=d3fbc921c9&mc_eid=[UNIQID]" target="_blank"><img src="images/apple.webp" class="img-fluid" alt="Apple download button"></a>
+          </div>
+        </div>
       </div>
       
-      <div class="container my-5 about" id="team"> 
-        <div class="row">
-          <h2 class="text-center"><b>About the team.</b></h2>
-        </div>
-        <div class="row about-border">
-          <p class="text-center">We've put together the best team that we could find to give you the best experience possible on Salaam Swipe. Our team comes from all over the world and we're committed to our mission of changing the way we meet one another.</p>
+      <div id="team">
+        <div class="container my-5 about"> 
+          <div class="row">
+            <h2 class="text-center"><b>About the team.</b></h2>
+          </div>
+          <div class="row about-border">
+            <p class="text-center">We've put together the best team that we could find to give you the best experience possible on Salaam Swipe. Our team comes from all over the world and we're committed to our mission of changing the way we meet one another.</p>
+          </div>
         </div>
       </div>
+      
 
       <div class="container my-5 LearnMore" id="learnMore"> 
         <div class="row text-center mb-4">
@@ -91,7 +101,7 @@
             <p class="faq_text">August 25, 2015<br> ...</p>
           </div>
           <div class="col-4">
-            <h3><a href="">Terms of Use</a></h3>
+            <h3><a href="blog/terms-of-use.html">Terms of Use</a></h3>
             <p class="faq_text">August 4, 2015<br> ...</p>
           </div>
           <div class="col-4">
